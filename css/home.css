@@ -1,0 +1,98 @@
+/* HOME MOBILE - START ( <768 ) ///////////////////////////////////////////////////////////////////////// */
+
+/* GALLERY - START ///////////////////////////////////////////////////////// */
+
+.gallery_wrapper {
+  height: fit-content;
+}
+.gallery_image_item {
+}
+.gallery_image_item > img {
+  height: max-content;
+  width: 100%;
+}
+.gallery_link_btn > button {
+  background-image: linear-gradient(to bottom left, #c500ff, #ff9e00);
+}
+.gallery_link_btn > button:hover {
+  box-shadow: -5px -5px 30px -5px white,
+    5px 5px 30px -5px var(--main-dark-orange);
+  background-image: linear-gradient(to bottom left, #b500eb, #ffa40f);
+}
+
+/* GALLERY - END ///////////////////////////////////////////////////////// */
+
+/* EXPERIENCES - START ///////////////////////////////////////////////////////// */
+
+.exp_title_line > hr {
+  height: 6px;
+  border-radius: 6px;
+  width: 20vmax;
+  margin: 1rem auto;
+}
+
+#DalatNature {
+  background-image: url(/img/natureImg.jpg);
+}
+#DalatCulture {
+  background-image: url(/img/cultureImg.jpg);
+}
+#DalatCuisine {
+  background-image: url(/img/cuisineImg.jpg);
+}
+#DalatLocation {
+  background-image: url(/img/locationImg.JPG);
+}
+
+.exp_box_img {
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 150px;
+  border-radius: 10px;
+}
+.exp_box_content {
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 86%;
+  height: 50px;
+}
+
+/* EXPERIENCES - END ///////////////////////////////////////////////////////// */
+
+/* BANNER - START ///////////////////////////////////////////////////////// */
+
+.banner_txt {
+  top: 10vw;
+  left: 10vw;
+  font-style: italic;
+  opacity: 0.5;
+}
+.banner_txt > h1 {
+  font-size: 7vmax;
+}
+.banner_txt > p {
+  font-size: 4vmax;
+  padding-left: 4vmax;
+}
+
+/* BANNER - END ///////////////////////////////////////////////////////// */
+
+/* HOME MOBILE - END ///////////////////////////////////////////////////////////////////////// */
+
+/* HOME TABLET - START ( >=768 >=1200 ) ///////////////////////////////////////////////////////////////////////// */
+@media only screen and (min-width: 768px) {
+}
+/* HOME TABLET - END ///////////////////////////////////////////////////////////////////////// */
+
+/* HOME PC - START ( >=1300 >=2000 ) ///////////////////////////////////////////////////////////////////////// */
+
+@media only screen and (min-width: 1300px) {
+  .gallery_image_box {
+    width: 1200px;
+    margin: 0 auto;
+  }
+}
+
+/* HOME PC - END ///////////////////////////////////////////////////////////////////////// */

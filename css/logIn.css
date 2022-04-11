@@ -1,0 +1,34 @@
+body {
+  /* background-color: var(--gray-I); */
+  position: relative;
+  background-image: url(/img/loginBackground\(3\).JPG);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* height: 100%; */
+}
+/* LOGIN MOBILE - START ///////////////////////////////////////////////////////// */
+
+/* LOGIN MOBILE - END ///////////////////////////////////////////////////////// */
+
+/* LOGIN TABLET - START ( >=768 >=1200 ) ///////////////////////////////////////////////////////////////////////// */
+
+@media only screen and (min-width: 768px) {
+}
+@media only screen and (min-width: 992px) {
+}
+@media only screen and (min-width: 1200px) {
+ 
+}
+
+/* LOGIN TABLET - END ///////////////////////////////////////////////////////////////////////// */
+
+/* LOGIN PC - START ( >=768 >=1200 ) ///////////////////////////////////////////////////////////////////////// */
+
+@media only screen and (min-width: 1300px) {
+}
+
+@media only screen and (min-width: 2000px) {
+}
+
+/* LOGIN PC - START ///////////////////////////////////////////////////////////////////////// */

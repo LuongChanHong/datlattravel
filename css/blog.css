@@ -1,0 +1,91 @@
+/* BLOG MOBILE - START ( <768 ) ///////////////////////////////////////////////////////////////////////// */
+
+/* TRAVEL TREND - START ///////////////////////////////////////////////////////// */
+
+.blog_trend_popular_wrapper,
+.blog_trend_post_wrapper {
+  margin-top: 2.5rem;
+}
+.blog_trend_more > button {
+  width: 30%;
+}
+.blog_popular_rating {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  font-size: 1.2rem;
+}
+
+/* TRAVEL TREND - END ///////////////////////////////////////////////////////// */
+
+/* BLOG CONTENT - START ///////////////////////////////////////////////////////// */
+
+.blog_content_title > h2 {
+  border-bottom: 4px solid var(--main-dark-green);
+  padding-bottom: 0.5rem;
+}
+.blog_content_side_img {
+  row-gap: 4px;
+}
+.blog_content_main_img > img,
+.blog_content_side_img > img {
+  border-radius: 10px;
+}
+.blog_popular_content > p,
+.blog_content_post_para {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 95%;
+}
+.blog_content_side_img > img {
+  height: 50%;
+}
+
+/* BLOG CONTENT - END ///////////////////////////////////////////////////////// */
+
+/* BLOG BANNER - START ///////////////////////////////////////////////////////// */
+
+.blog_content_container {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+.blog_banner_wrapper {
+  background-image: url(/img/blogBanner.jpg);
+  background-position: center center;
+  background-size: cover;
+  height: 300px;
+}
+.blog_banner_wrapper > article > p {
+  font-size: 1rem;
+}
+
+/* BLOG BANNER - END ///////////////////////////////////////////////////////// */
+
+/* BLOG MOBILE - END ///////////////////////////////////////////////////////////////////////// */
+
+/* BLOG TABLET - START ( >=768 >=1200 ) ///////////////////////////////////////////////////////////////////////// */
+@media only screen and (min-width: 768px) {
+  .blog_banner_wrapper > article > h1 {
+    font-size: 3rem;
+  }
+  .blog_banner_wrapper > article > p {
+    font-size: 0.8rem;
+  }
+}
+@media only screen and (min-width: 992px) {
+}
+@media only screen and (min-width: 1200px) {
+}
+/* BLOG TABLET - END ///////////////////////////////////////////////////////////////////////// */
+
+/* BLOG PC - START ( >=1300 >=2000 ) ///////////////////////////////////////////////////////////////////////// */
+
+@media only screen and (min-width: 1300px) {
+}
+@media only screen and (min-width: 2000px) {
+}
+
+/* BLOG PC - END ///////////////////////////////////////////////////////////////////////// */
