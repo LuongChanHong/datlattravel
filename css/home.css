@@ -32,16 +32,16 @@
 }
 
 #DalatNature {
-  background-image: url(./../img/natureImg.jpg);
+  background-image: url(./../img/nature.jpg);
 }
 #DalatCulture {
-  background-image: url(./../img/cultureImg.jpg);
+  background-image: url(./../img/culture.jpg);
 }
 #DalatCuisine {
-  background-image: url(./../img/cuisineImg.jpg);
+  background-image: url(./../img/cuisine.jpg);
 }
 #DalatLocation {
-  background-image: url(./../img/locationImg.JPG);
+  background-image: url(./../img/location.JPG);
 }
 
 .exp_box_img {
