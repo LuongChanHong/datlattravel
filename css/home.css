@@ -5,8 +5,7 @@
 .gallery_wrapper {
   height: fit-content;
 }
-.gallery_image_item {
-}
+
 .gallery_image_item > img {
   height: max-content;
   width: 100%;
